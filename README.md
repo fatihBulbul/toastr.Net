@@ -4,7 +4,8 @@ toastr notifications for .Net
 
 # Example
 ###
-                public ActionResult Index()
+
+        public ActionResult Index()
         {
             ViewBag.Message =
                 Notification.Show("Merhaba dünya", onclick: "hello") +
@@ -12,6 +13,7 @@ toastr notifications for .Net
                 Notification.Show("System of down", "Error", type: ToastType.Error);
             return View();
         }
+
 ###
 ***
 
