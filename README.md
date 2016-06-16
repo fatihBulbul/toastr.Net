@@ -4,15 +4,10 @@ toastr notifications for .Net
 
 # Example
 ,,,
-        public ActionResult Index()
-        {
-            ViewBag.Message =
-                Notification.Show("Merhaba dünya", onclick: "hello") +
-                Notification.Show("Elveda dünya", position: Position.BottomCenter, type: ToastType.Error, timeOut: 7000) +
-                Notification.Show("System of down", "Error", type: ToastType.Error);
-            return View();
-        }
-        
+        ViewBag.Message = Notification.Show("Merhaba dünya", onclick: "hello");
+,,,
+***
+
         
         
         <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -26,5 +21,5 @@ toastr notifications for .Net
         </script>
         @Html.Raw(ViewBag.Message)
 
-,,,
+***
 
