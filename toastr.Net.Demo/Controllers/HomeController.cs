@@ -10,7 +10,8 @@ namespace toastr.Net.Demo.Controllers
         {
             ViewBag.Message =
                 Notification.Show("Merhaba dünya", onclick: "hello") +
-                Notification.Show("Elveda dünya", position: Position.BottomCenter, type: ToastType.Error, timeOut: 7000);
+                Notification.Show("Elveda dünya", position: Position.BottomCenter, type: ToastType.Error, timeOut: 7000) +
+                Notification.Show("System of down", "Error", type: ToastType.Error);
             return View();
         }
     }
