@@ -6,6 +6,7 @@ namespace toastr.Net.Demo.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+
         public ActionResult Index()
         {
             ViewBag.Message =
@@ -14,5 +15,6 @@ namespace toastr.Net.Demo.Controllers
                 Notification.Show("System of down", "Error", type: ToastType.Error);
             return View();
         }
+
     }
 }
