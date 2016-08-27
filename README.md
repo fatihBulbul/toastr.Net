@@ -3,7 +3,7 @@ toastr notifications for .Net
 
 
 # Example
-###
+###c#
 
         public ActionResult Index()
         {
@@ -15,7 +15,7 @@ toastr notifications for .Net
         }
 
 ###
-***
+***c#
 
         
         
