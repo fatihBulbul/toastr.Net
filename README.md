@@ -3,7 +3,8 @@ toastr notifications for .Net
 
 
 # Example
-###c#
+###
+```c#
 
         public ActionResult Index()
         {
@@ -13,12 +14,9 @@ toastr notifications for .Net
                 Notification.Show("System of down", "Error", type: ToastType.Error);
             return View();
         }
-
+```
 ###
-***c#
-
-        
-        
+```javascript
         <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
@@ -30,5 +28,5 @@ toastr notifications for .Net
         </script>
         @Html.Raw(ViewBag.Message)
 
-***
+```
 
